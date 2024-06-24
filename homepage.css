@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width:1440px;
+    height:4370px;
+    background-color: #FFF;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #FFF;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size:20px;
+}
+
+h1 {
+    color: #000;
+    margin-left: 100px;
+    margin-top: 37px;
+}
+
+.Container1 {
+    color: white;
+    background-color: black;
+    display: inline-flex;
+    height: 38px;
+    width:1440px;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+.Container2 {
+flex-shrink: 0;
+background: url('/Hoang.dev/images/Rectangle\ 2.png');
+background-repeat: no-repeat;
+background-color:#F2F0F1;
+width: 1440px;
+height: 663px;
+}
+.Container3 {
+    display:flex;
+    width: 1440px;
+height: 122px;
+background-color:black;
+color:white;
+}
+.Container3 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size:40px;
+}
