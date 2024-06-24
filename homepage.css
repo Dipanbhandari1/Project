@@ -2,8 +2,7 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 1440px;
-    height: 4370px;
-    background-color: #FFF;
+    background-color:#FFFF;
 }
 
 header {
@@ -45,7 +44,6 @@ h1 {
 }
 
 .Container2 {
-    flex-shrink: 0;
     background: url('/images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-color: #F2F0F1;
@@ -191,5 +189,22 @@ border-radius: 20px 0px 0px 0px;
 .customer {
     display:flex;
     justify-content: space-between;
+}
+.Container6 {
+    margin-top:100px;
+background-color: #F0F0F0;
+display:flex;
+justify-content:space-around;
+align-items: flex-start;
+}
+.Cl1 {
+    width:248px;
+}
 
+.Container6 li {
+    list-style-type: none;
+    margin-bottom:10px;
+}
+.Container6 ul { 
+    padding-inline-start: 0px;
 }
